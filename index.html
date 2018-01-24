@@ -10,6 +10,7 @@
   href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css"
   integrity="sha384-OHBBOqpYHNsIqQy8hL1U+8OXf9hH6QRxi0+EODezv82DfnZoV7qoHAZDwMwEJvSw"
   crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" />
   <link href='http://fonts.googleapis.com/css?family=Cabin:300,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="stylehome.css">
   <title>Annie Hooker</title>
@@ -32,8 +33,8 @@
     <nav class="nav-nav">
       <ul class="nav-list">
         <li class="nav-item"><a class="nav-link" onclick="goHome()">Home</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" onclick="startFinViz()">Financial Visualization</a></li>
-        <li class="nav-item"><a href="#" class="nav-link" onclick="startWebDev()">Web Development</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" onclick="startFinViz()">Paintings</a></li>
+        <li class="nav-item"><a href="#" class="nav-link" onclick="startWebDev()">Mixed Media</a></li>
         <li class="nav-item"><a href="#" class="nav-link" onclick="startAboutMe()">About Me</a></li>
         <li class="nav-item"><a href="#" class="nav-link" onclick="startContact()">Contact</a></li>
       </ul>
@@ -93,59 +94,94 @@
 <div class="container animated fadeIn" id="containerwd">
    
   <div class="item" id="item21">
-      <a href="http://samhooker.com/sth/zackHample.html" target="_blank">
-      <img src="http://www.anniehooker.com/mixedmedia/full/annieairylg.jpg" id="zhback" >
+      <a href="http://www.anniehooker.com/mixedmedia/full/annieairylg.jpg" data-fancybox="group1" data-caption="Airy 42x42, acrylic on reclaimed wood" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/annieairylg.jpg" id="airyback">
     </a>
       </div>
+      
     <div class="item" id="item22">
-        <a href="http://samhooker.com/sth/washoeElection2016.html" target="_blank">
-      <img src="http://www.anniehooker.com/mixedmedia/full/anniewadelg.jpg" href="http://google.com" id="washoeback">
+        <a href="http://www.anniehooker.com/mixedmedia/full/anniewadelg.jpg" data-fancybox="group1" data-caption="Wade 24x32, acrylic on reclaimed wood" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/anniewadelg.jpg" id="washoeback">
     </a>
     </div>
+
     <div class="item" id="item23">
-        <a href="http://samhooker.com/sth/nvTopo.html" target="_blank">
-      <img src="thumbs/nvlg.jpg"  id="nvback">
+        <a href="http://www.anniehooker.com/mixedmedia/full/fullnative.jpg" data-fancybox="group1" data-caption="Native 42x42, acrylic on reclaimed wood" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/fullnative.jpg"  id="native">
     </a>
     </div>
+
     <div class="item" id="item24">
-        <a href="http://samhooker.com/sth/slider.html" target="_blank">
-      <img src="thumbs/aapl.jpg"  id="aaplback">
+        <a href="http://www.anniehooker.com/mixedmedia/full/redbird1.png" data-fancybox="group1" data-caption="Red Bird 18x21, acrylic on picklewood" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/redbird1.png"  id="redbird">
     </a>
     </div>
+
     <div class="item" id="item25">
-        <a href="http://www.anniehooker.com" target="_blank">
-      <img src="thumbs/annie.jpg"  id="annieback">
+        <a href="http://www.anniehooker.com/mixedmedia/full/Root1.png" data-fancybox="group1" data-caption="Root 42x42, acrylic on reclaimed wood" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/Root1.png"  id="root">
     </a>
     </div>
+
     <div class="item" id="item26">
-        <a href="http://samhooker.com/travel/gct17.html" target="_blank">
-      <img src="http://www.anniehooker.com/mixedmedia/full/annielongwinterlg.jpg"  id="bearback">
+        <a href="http://www.anniehooker.com/mixedmedia/full/Chroma1.png" data-fancybox="group1" data-caption="Chroma 30x35" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/Chroma1.png"  id="chromaback">
     </a>
     </div>
+
     <div class="item" id="item27">
-        <a href="http://samhooker.com/sth/wikisearch.html" target="_blank">
-      <img src="thumbs/wikithumb.jpg"  id="wikiback">
-    </a>
+        <a href="http://www.anniehooker.com/mixedmedia/full/annielongwinterlg.jpg" data-fancybox="group1" data-caption="Long Winter Slumber 40x40" data-type="image">
+          <img src="http://www.anniehooker.com/mixedmedia/full/annielongwinterlg.jpg"  id="bearback">
+        </a>
     </div>
+
+    <div class="item" id="item28">
+        <a href="http://www.anniehooker.com/mixedmedia/full/beginningless_time1.png" data-fancybox="group1" data-caption="Beginningless Time 32x40" data-type="image">
+        <img src="http://www.anniehooker.com/mixedmedia/full/beginningless_time1.png"  id="begtime">
+      </a>
+  </div>
+
+  <div class="item" id="item29">
+      <a href="http://www.anniehooker.com/mixedmedia/full/annietruckshaklg.jpg" data-fancybox="group1" data-caption="Truckee Shack 30x30" data-type="image">
+      <img src="http://www.anniehooker.com/mixedmedia/full/annietruckshaklg.jpg"  id="truckeeshack">
+</a>
+</div>
+
+<div class="item" id="item210">
+    <a href="http://www.anniehooker.com/mixedmedia/full/zephyr.jpg" data-fancybox="group1" data-caption="Zephyr 24x24" data-type="image">
+    <img src="http://www.anniehooker.com/mixedmedia/full/zephyr.jpg"  id="zephyr">
+  </a>
+</div>
+
+<div class="item" id="item211">
+    <a href="http://www.anniehooker.com/mixedmedia/full/anniebolg.jpg" data-fancybox="group1" data-caption="Bo 18x24, acrylic on reclaimed wood" data-type="image">
+    <img src="http://www.anniehooker.com/mixedmedia/full/anniebolg.jpg"  id="bo">
+  </a>
+</div>
+
+<div class="item" id="item212">
+    <a href="http://www.anniehooker.com/mixedmedia/full/whitetaillg.jpg" data-fancybox="group1" data-caption="Wistful Whitetail (Red) 40x40" data-type="image">
+    <img src="http://www.anniehooker.com/mixedmedia/full/whitetaillg.jpg"  id="whitetail">
+  </a>
+</div>
+
 </div>
 
 
 <!-- ABOUTME CONTAINER!!!!!!!!!!!!!!!!!!!!! -->
 <div class="container animated fadeIn" id="containeram">
     <div id="item31">
-        <img src="sambeach.jpg"  id="samback">
+        <img src="http://www.anniehooker.com/contact/studiodogs1.jpg"  id="samback">
     </div>
     <div id="item32">
-        <h3>I’m most interested in education through interactive digital media. A year into my web development venture, I’m exploring coding languages and digital libraries to see what methods work best with how I learn.
-            <br />
-            <br />
-                    Using my MBA and CFP experience, my main interactive project revolve around learning about personal finance and business trends. I’m also passionate about politics, sports and art, and I use these topics in my apps to push my web development skills. I’m also interest in early education and plan to develop an app for K-8 students using interactive learning.
-                    <br />
-            <br />
-                    I was instantly attracted to the D3js library, which is a framework I use to create my data visualizations and graphs. Combined with the interactivity of the Javascript language, I see a powerful platform to engage people visually and stimulate their desire to learn more.
-                    <br />
-            <br />
-                    From San Francisco originally, I am based in Reno, Nevada, where I can launch to Tahoe, Yosemite and other outdoor spots, and with my CFP in hand, I deploy my skills on a custom t-shirt sales team.</h3>
+        <h3>From San Francisco, California
+            <br/>
+            <br/>
+            Lives and works in Auburn, California
+            <br/>
+            <br/>
+            EDUCATION
+            2005	BFA, California College of the Arts</h3>
       </div>
 </div>
 
@@ -154,17 +190,23 @@
 <!-- CONTACT CONTAINER!!!!!!!!!!!!!!!!!!!!! -->
 <div class="animated fadeIn" id="containerco">
     <h2 id="contactHead">Email</h2>
-    <a href="mailto:sam@samhooker.com" target="_blank" id="contact">sam@samhooker.com</a>
-    <h2 id="contactHead">Twitter</h2>
-    <a href="https://twitter.com/hamSooker" target="_blank" id="contact">@HamSooker</a>
-    <h2 id="contactHead">Github</h2>
+    <a href="mailto:annie@anniehooker.com" target="_blank" id="contact">annie@anniehooker.com</a>
+    <h2 id="contactHead">Instagram</h2>
+    <a href="https://www.instagram.com/anniehooker/" target="_blank" id="contact">@annieHooker</a>
+    <!-- <h2 id="contactHead">Github</h2>
     <a href="https://github.com/35degrees" target="_blank"  id="contact">35degrees</a>
     <h2 id="contactHead">LinkedIn</h2>
-    <a href="https://linkedin.com/samhookerworkforce" target="_blank" id="contact">samhooker</a>
+    <a href="https://linkedin.com/samhookerworkforce" target="_blank" id="contact">samhooker</a> -->
 
   </div>
 
 
 </body>
 <script src="main.js"></script>
+<script src="//code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js"></script>
 </html>
+
+
+
+

@@ -120,6 +120,9 @@ function startWebDev() {
     webDev.style.display = "grid";
     webDev.classList.add("animated", "fadeIn");
     webDev.classList.remove("animated", "fadeOut");
+    $('[data-fancybox="group1"]').fancybox({
+      loop : true
+    });
   setTimeout(showItem21, 500);
   }
   function showItem21(){
@@ -156,7 +159,32 @@ function startWebDev() {
   function showItem27(){
     item27.classList.add("animated", "fadeIn");
     item27.style.display = "block";
-    // setTimeout(showItem24, 500);
+    setTimeout(showItem28, 500);
+  }
+  function showItem28(){
+    item28.classList.add("animated", "fadeIn");
+    item28.style.display = "block";
+    setTimeout(showItem29, 500);
+  }
+  function showItem29(){
+    item29.classList.add("animated", "fadeIn");
+    item29.style.display = "block";
+    setTimeout(showItem210, 500);
+  }
+  function showItem210(){
+    item210.classList.add("animated", "fadeIn");
+    item210.style.display = "block";
+    setTimeout(showItem211, 500);
+  }
+  function showItem211(){
+    item211.classList.add("animated", "fadeIn");
+    item211.style.display = "block";
+    setTimeout(showItem212, 500);
+  }
+  function showItem212(){
+    item212.classList.add("animated", "fadeIn");
+    item212.style.display = "block";
+    // setTimeout(showItem28, 500);
   }
 
 function startAboutMe(){

@@ -91,7 +91,7 @@ function showItem12(){
   // setTimeout(showItem13, 800);
 }
 
-
+ 
 // WEBDEV START!!!!!!!!!!!!!!!!!!!!!!!!!
 
 const item21 = document.getElementById("item21");
